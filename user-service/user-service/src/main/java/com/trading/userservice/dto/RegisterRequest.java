@@ -12,6 +12,8 @@ import java.math.BigDecimal;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+// this dto is for user registration. It contains the fields required for user registration.
+// we took the fields from the User entity class and added validation annotations to them. We also added a field for initial deposit which is set to 10000 by default.
 public class RegisterRequest {
     // DTO is used to transfer data between the client and server. It encapsulates the data required for user registration.
     // it is used to get the data from the client and pass it to the server.
